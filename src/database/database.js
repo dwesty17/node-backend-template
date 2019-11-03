@@ -27,7 +27,7 @@ class Database {
             Object.init(objectAttributes, objectOptions);
 
             // TODO remove sync() when migration framework is added
-            await Object.sync({ force: true });
+            await Object.sync();
 
             console.log("🔮 Initialized data models!");
         } catch (error) {
