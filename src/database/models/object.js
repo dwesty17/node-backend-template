@@ -1,5 +1,7 @@
 const { Sequelize } = require('sequelize');
 
+class Object extends Sequelize.Model {}
+
 const objectAttributes = {
     id : {
         type: Sequelize.INTEGER,
@@ -18,8 +20,6 @@ const objectAttributes = {
 const objectOptions = {
     modelName: 'object'
 };
-
-class Object extends Sequelize.Model {}
 
 module.exports = {
     Object,
