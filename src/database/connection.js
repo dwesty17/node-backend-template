@@ -5,7 +5,7 @@ const { Object } = require("./models");
 
 const DATABASE_URL = process.env.DATABASE_URL || "postgres://localhost/postgres";
 
-class Connection {
+class Database {
     constructor () {
         this.sequelize = new Sequelize(DATABASE_URL, {
             logging: false,
@@ -15,9 +15,9 @@ class Connection {
     async init () {
         try {
             await this.sequelize.authenticate();
-            console.log("🔗 Connected to the Connection!");
+            console.log("🔗 Connected to the Database!");
         } catch (error) {
-            console.error("❌ Unable to connect to the Connection", error);
+            console.error("❌ Unable to connect to the Database", error);
             process.exit(1);
         }
 
@@ -38,4 +38,4 @@ class Connection {
 }
 
 
-module.exports = Connection;
+module.exports = Database;
