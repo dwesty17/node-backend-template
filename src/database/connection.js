@@ -1,11 +1,11 @@
 const { Sequelize } = require('sequelize');
 
-const { objectOptions, objectAttributes } = require('./object');
+const { objectOptions, objectAttributes } = require('./models/object');
 const { Object } = require("./models");
 
 const DATABASE_URL = process.env.DATABASE_URL || "postgres://localhost/postgres";
 
-class Database {
+class Connection {
     constructor () {
         this.sequelize = new Sequelize(DATABASE_URL, {
             logging: false,
@@ -15,9 +15,9 @@ class Database {
     async init () {
         try {
             await this.sequelize.authenticate();
-            console.log("🔗 Connected to the Database!");
+            console.log("🔗 Connected to the Connection!");
         } catch (error) {
-            console.error("❌ Unable to connect to the Database", error);
+            console.error("❌ Unable to connect to the Connection", error);
             process.exit(1);
         }
 
@@ -38,4 +38,4 @@ class Database {
 }
 
 
-module.exports = Database;
+module.exports = Connection;
