@@ -1,9 +1,9 @@
 # node-backend-template
 
 This repository contains a starter template for a 
-[**Node.js**][https://nodejs.org/] backend project that uses and is compatible 
-with certain technologies out of the box. The project comes with [**GraphQL**][https://graphql.org/] 
-and [**Sequelize**][https://sequelize.org] (using [**PostgreSQL**][https://www.postgresql.org/] 
+[**Node.js**](https://nodejs.org/) backend project that uses and is compatible 
+with certain technologies out of the box. The project comes with [**GraphQL**](https://graphql.org/) 
+and [**Sequelize**](https://sequelize.org) (using [**PostgreSQL**](https://www.postgresql.org/) 
 by default) setup and working.
 
 ## Usage
@@ -41,7 +41,7 @@ npm run start
 ### Heroku
 
 This project is built so that it can be deployed to Heroku out of the box. 
-Follow the instructions on Heroku for [deploying Node.js apps][https://devcenter.heroku.com/articles/deploying-nodejs].
+Follow the instructions on Heroku for [deploying Node.js apps](https://devcenter.heroku.com/articles/deploying-nodejs).
 
 ## Future
 
