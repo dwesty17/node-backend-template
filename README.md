@@ -1,9 +1,9 @@
 # node-backend-template
 
 This repository contains a starter template for a 
-[**Node.js**][https://nodejs.org/] backend project that uses and is compatible 
-with certain technologies out of the box. The project comes with [**GraphQL**][https://graphql.org/] 
-and [**Sequelize**][https://sequelize.org] (using [**PostgreSQL**][https://www.postgresql.org/] 
+[**Node.js**](https://nodejs.org/) backend project that uses and is compatible 
+with certain technologies out of the box. The project comes with [**GraphQL**](https://graphql.org/) 
+and [**Sequelize**](https://sequelize.org) (using [**PostgreSQL**](https://www.postgresql.org/) 
 by default) setup and working.
 
 ## Usage
