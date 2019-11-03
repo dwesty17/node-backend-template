@@ -47,3 +47,4 @@ Follow the instructions on Heroku for [deploying Node.js apps](https://devcenter
 
 - Set up eslint with recommended rule set & AirBnB or Google rule set
 - Set up jest testing and coverage requirements
+- Set up logging library
