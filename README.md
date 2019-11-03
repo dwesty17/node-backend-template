@@ -41,7 +41,7 @@ npm run start
 ### Heroku
 
 This project is built so that it can be deployed to Heroku out of the box. 
-Follow the instructions on Heroku for [deploying Node.js apps][https://devcenter.heroku.com/articles/deploying-nodejs].
+Follow the instructions on Heroku for [deploying Node.js apps](https://devcenter.heroku.com/articles/deploying-nodejs).
 
 ## Future
 
