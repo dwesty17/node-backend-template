@@ -1,6 +1,4 @@
-const { Sequelize } = require('sequelize');
-
-class Object extends Sequelize.Model {}
+const { Object } = require("./object");
 
 module.exports = {
     Object,

@@ -19,7 +19,10 @@ const objectOptions = {
     modelName: 'object'
 };
 
+class Object extends Sequelize.Model {}
+
 module.exports = {
+    Object,
     objectAttributes,
     objectOptions,
 };
